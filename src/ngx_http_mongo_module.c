@@ -1234,7 +1234,7 @@ ngx_http_mongo_process_auth(ngx_http_request_t *r)
         {
             ngx_log_error(NGX_LOG_ERR, r->connection->log, 0,
                           "mongo: received wrong BSON"
-                          " (doesn't match \"authentication\" response)");-Werror=unused-but-set-variable
+                          " (doesn't match \"authentication\" response)");
             return NGX_ERROR;
 
         } else {
