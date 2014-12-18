@@ -1,0 +1,12 @@
+Source: ngx-mongo
+Section: web
+Priority: optional
+Maintainer: Miles Delahunty <mdelahunty@brandscreen.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: https://github.com/brandscreen/ngx_mongo
+
+Package: ngx-mongo
+Architecture: all
+Depends: ${misc:Depends}
+Description: ngx_mongo is an upstream module that allows nginx to communicate directly with MongoDB database
